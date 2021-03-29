@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Strona Kamila Budzika</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <meta charset="UTF-8">
+</head>
+
+<body>
+
+
+<form>
+  <div class="row mb-3">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Imi�</label>
+    <div class="col-sm-4">
+      <input type="text" class="form-control" id="inputEmail3">
+    </div>
+  </div>
+
+  <div class="row mb-3">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Nazwisko</label>
+    <div class="col-sm-4">
+      <input type="text" class="form-control" id="inputEmail3">
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-4">
+      <input type="email" class="form-control" id="inputPassword3">
+    </div>
+  </div>
+  <fieldset class="row mb-3">
+    <legend class="col-form-label col-sm-2 pt-0">P�e�</legend>
+    <div class="col-sm-4">
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+               value="option1">
+        <label class="form-check-label" for="inlineRadio1">M�czyzna</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+               value="option2">
+        <label class="form-check-label" for="inlineRadio2">Kobieta</label>
+      </div>
+    </div>
+  </fieldset>
+
+
+  <div class="row mb-3">
+    <legend class="col-form-label col-sm-2 pt-0">Opis</legend>
+    <div class="col-sm-4">
+      <div class="form-group">
+        <textarea class="form-control" id="textArea" rows="3"></textarea>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row mb-3">
+    <legend class="col-form-label col-sm-2 pt-0">Wiek</legend>
+    <div class="col-sm-4">
+
+      <input type="number" name="wiek" id="wiek" value="0" min="0" max="120">
+    </div>
+  </div>
+
+
+  <div class="row mb-3">
+    <legend class="col-form-label col-sm-2 pt-0">Stan cywilny</legend>
+    <div class="col-sm-4">
+
+      <select class="form-control form-control-sm">
+        <option>Panna/kawaler</option>
+        <option>Nie panna/nie kawaler</option>
+      </select>
+    </div>
+  </div>
+
+
+  <button type="submit" class="btn btn-primary">Wy�lij</button>
+  <button type="reset" class="btn btn-danger">Reset</button>
+
+</form>
+
+
+<footer class="center">
+  Copyrights &copy; Kamil Budzik | 2021
+</footer>
+
+</body>
+</html>
