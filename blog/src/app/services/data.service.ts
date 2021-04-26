@@ -20,7 +20,7 @@ export class DataService {
     return this.http.get(this.url + '/api/posts/' + id);
   }
 
-  getByText(data:string) {
+  getByText(data:any) {
     return this.http.post(this.url + '/api/posts/', data);
   }
 
